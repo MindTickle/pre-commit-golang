@@ -10,12 +10,6 @@
     files: '\.go$'
     language: 'script'
     description: "Runs `go vet`, requires golang"
-- id: go-vet-src
-  name: 'go vet'
-  entry: run-go-vet-src.sh
-  files: '\.go$'
-  language: 'script'
-  description: "Runs `go vet`, requires golang"
 -   id: go-lint
     name: 'go lint'
     entry: run-go-lint.sh
